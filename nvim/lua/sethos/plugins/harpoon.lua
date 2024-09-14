@@ -71,5 +71,12 @@ return {
 			end,
 			desc = "Harpoon next file",
 		},
+		{
+			"<leader>d",
+			function()
+				require("harpoon"):list():remove()
+			end,
+			desc = "Harpoon delete current file",
+		},
 	},
 }
