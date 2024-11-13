@@ -78,5 +78,12 @@ return {
 			end,
 			desc = "Harpoon delete current file",
 		},
+		{
+			"<leader>ra",
+			function()
+				require("harpoon"):list():clear()
+			end,
+			desc = "Harpoon delete all",
+		},
 	},
 }
